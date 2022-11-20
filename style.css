@@ -1,4 +1,7 @@
 body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
     background: rgb(247, 245, 245);
 }
 h1{
@@ -59,7 +62,11 @@ figcaption{
     color: rgb(248, 26, 10);
 }
 p{
+    width: 800px;
+    display: block;
     color: rgb(75, 45, 207);
+    margin-left: auto;
+    margin-right: auto;
 }
 h2{
     text-align: center;
@@ -70,4 +77,21 @@ img{
     margin-right: auto;
     background-color: rgb(163, 163, 240);
     width: 500px;
+}
+
+h3{
+    text-align: center;
+}
+#deatil{
+    float: left;
+    width: 25px;
+}
+h5{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+h7{
+    text-align: center;
 }
